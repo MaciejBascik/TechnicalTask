@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pl" className={dm_sans.variable}>
-      <body className={`${dm_sans.variable} bg-[#2F1893] text-white px-11`}>
+      <body className={`${dm_sans.variable}  text-white px-11`}>
         <NavSection />
         {children}
       </body>

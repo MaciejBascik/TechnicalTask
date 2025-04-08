@@ -2,7 +2,7 @@ import { LoginForm } from "./LoginForm";
 import { motion } from "framer-motion";
 export function HeroSection() {
   return (
-    <section className="min-h-screen grid grid-cols-1 md:grid-cols-2  p-8 md:p-20 text-white">
+    <section className="min-h-screen grid grid-cols-1 md:grid-cols-2  p-14 md:p-20 text-white bg-[#2F1893]">
       <motion.div
         className="flex flex-col justify-center gap-6"
         initial={{ x: -40, opacity: 0 }}

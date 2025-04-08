@@ -1,17 +1,8 @@
 "use client";
 
-import { useForm } from "react-hook-form";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { z } from "zod";
-import { useState } from "react";
-import { simulateRequest } from "@/utils/simulateRequest";
-import { useAuthStore } from "@/store/auth";
-import { motion } from "framer-motion";
-import { toast } from "react-toastify";
-
 export function NavSection() {
   return (
-    <nav>
+    <nav className="bg-[#2F1893]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -35,9 +26,9 @@ export function NavSection() {
           >
             <path
               stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
               d="M1 1h15M1 7h15M1 13h15"
             />
           </svg>
